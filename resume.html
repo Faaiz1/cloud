@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-</head>
-<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .resumeOuter {
+            background-color: rgb(142, 195, 238);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .container {
+            background-color: rgb(8, 164, 236);
+            width: 50%;
+            height: 10%;
     
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 30px;
+        }
+
+        .innercontainer {
+            background-color: rgb(8, 164, 236);
+            width: 50%;
+            height: 40%;
+            margin-top: 2%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resumeOuter">
+        <div class="container">
+            <p>
+                My resume
+            </p>
+
+        </div>
+
+        <div class="innercontainer">
+            <p>
+                My Content
+            </p>
+            
+        </div>
+    </div>
 </body>
+
 </html>
